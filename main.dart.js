@@ -90452,7 +90452,7 @@ f=new A.m7(n,i.cr(B.b.bd(m,"/")+"/Usuarios"))
 A.b4(f.gcd(),$.kL(),!0)
 f=o.a(f.b).dh(g)
 A.b4(f,$.kJ(),!0)
-e=A.Ub(A.aA(["status","ACTIVO"],l,k))
+e=A.Ub(A.aA(["status","ABIERTA"],l,k))
 e.toString
 s=7
 return A.u(f.hj(0,e,null),$async$p6)
@@ -90509,7 +90509,7 @@ s=!B.b.iR(k.gdN(),new A.akC(g))?13:14
 break
 case 13:f=n.a(l.b).dh(g)
 A.b4(f,$.kJ(),!0)
-e=A.Ub(A.aA(["status","ACTIVO"],m,h))
+e=A.Ub(A.aA(["status","ABIERTA"],m,h))
 e.toString
 s=15
 return A.u(f.hj(0,e,null),$async$nC)
@@ -92251,7 +92251,7 @@ j=p}return A.pR(s,new A.ari(this.a,i,a),q,r,j)},
 $S:85}
 A.ari.prototype={
 $0(){var s,r=this,q=null,p="status",o=r.b,n=o==null
-if(J.d(n?q:J.W(J.W(o,"data"),p),"ACTIVA"))s=J.d(n?q:J.W(J.W(o,"user"),p),"ACTIVO")
+if(J.d(n?q:J.W(J.W(o,"data"),p),"ACTIVA"))s=J.d(n?q:J.W(J.W(o,"user"),p),"ABIERTA")
 else s=!1
 if(s){o=A.j3(new A.arh(r.a,o),q,t.z)
 A.cZ(r.c,!1).fp(o)}else if(J.d(n?q:J.W(J.W(o,"user"),p),"ENVIADA")){o=r.c.a1(t.J)
