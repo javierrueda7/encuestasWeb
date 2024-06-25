@@ -90651,7 +90651,7 @@ l=q.Q?"ACTIVA":q.as
 k=t.N
 j=t.z
 s=3
-return A.t(p.CB(0,A.av(["name",c,"startDate",o,"endDate",n,"days",m,"status",l,"hours",q.ax.a.a],k,j)),$async$p9)
+return A.t(p.CB(0,A.av(["name",c,"startDate",o,"endDate",n,"days",m,"status",l,"hours",q.ax.a.a,"tipo",q.a.x],k,j)),$async$p9)
 case 3:l=q.y
 l=new A.Ah(l,A.a4(l).i("Ah<1>"))
 i=l.gf6(l).hk(0,new A.akE()).eV(0,new A.akF(q),k).fa(0)
