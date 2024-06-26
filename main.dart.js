@@ -90677,7 +90677,7 @@ i=!(i.c==null||i.w==="CREADA")||!1
 j=A.bz(A.xw("ESTADO",k,new A.al0(d),i,j),1)
 i=d.Q
 k=d.a.w
-r=A.cL(A.a([n,r,m,l,j,A.bz(A.cL(A.a([A.a4x(k==="CREADA"||k==null?new A.al1(d):c,i),A.a6("ABRIR ENCUESTA",c,c,c,c,c,c)],o),B.C,B.G,B.y),1)],o),B.C,B.G,B.y)
+r=A.cL(A.a([n,r,m,l,j,A.bz(A.cL(A.a([A.a4x(k==="CREADA"||k==null?new A.al1(d):c,i),A.a6("ACTIVAR ENCUESTA",c,c,c,c,c,c)],o),B.C,B.G,B.y),1)],o),B.C,B.G,B.y)
 n=A.aF(c,20,c)
 m=A.cL(A.a([A.bz(A.a6("NOMBRE",c,c,c,A.bm(c,c,c,c,c,c,c,c,c,c,c,c,c,c,B.a5,c,c,!0,c,c,c,c,c,c,c,c),c,c),4),A.bz(A.a6("PROFESI\xd3N",c,c,c,A.bm(c,c,c,c,c,c,c,c,c,c,c,c,c,c,B.a5,c,c,!0,c,c,c,c,c,c,c,c),c,c),4),A.bz(A.a6("CARGO",c,c,c,A.bm(c,c,c,c,c,c,c,c,c,c,c,c,c,c,B.a5,c,c,!0,c,c,c,c,c,c,c,c),c,c),4),A.bz(A.a6("SEDE",c,c,c,A.bm(c,c,c,c,c,c,c,c,c,c,c,c,c,c,B.a5,c,c,!0,c,c,c,c,c,c,c,c),c,c),4),A.bz(A.a6("ESTADO",c,c,c,A.bm(c,c,c,c,c,c,c,c,c,c,c,c,c,c,B.a5,c,c,!0,c,c,c,c,c,c,c,c),c,c),1),A.bz(A.aF(c,c,c),1)],o),B.C,B.c_,B.y)
 l=A.aF(c,10,c)
@@ -90687,7 +90687,7 @@ h=A.Ls(c,c)
 g=A.aF(A.un(new A.al3(d),d.x.length,!0),400,c)
 f=A.aF(c,30,c)
 e=A.aF(c,10,c)
-return A.nT(b,new A.bA(new A.aq(350,50,350,50),A.RL(A.cT(A.a([a,a0,s,p,q,r,n,new A.bA(B.jZ,m,c),l,j,new A.bA(B.jZ,i,c),h,new A.bA(B.jZ,g,c),f,e,A.ho(A.a6(d.Q?"ENVIAR ENCUESTA":"GUARDAR ENCUESTA",c,c,c,c,c,c),new A.al4(d),c)],o),B.bU,B.G,B.y),c),c),!1,c)},
+return A.nT(b,new A.bA(new A.aq(350,50,350,50),A.RL(A.cT(A.a([a,a0,s,p,q,r,n,new A.bA(B.jZ,m,c),l,j,new A.bA(B.jZ,i,c),h,new A.bA(B.jZ,g,c),f,e,A.ho(A.a6(d.Q?"ABRIR ENCUESTA":"GUARDAR ENCUESTA",c,c,c,c,c,c),new A.al4(d),c)],o),B.bU,B.G,B.y),c),c),!1,c)},
 ahA(){var s=this,r=s.d
 r===$&&A.b()
 if(r.a.a.length!==0){r=s.e
