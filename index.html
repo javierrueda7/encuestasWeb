@@ -30,10 +30,10 @@
 
   <title>forms_app</title>
   <link rel="manifest" href="manifest.json">
-
+  <script src="https://cdn.jsdelivr.net/npm/@linusu/flutter-web-auth@0.5.0/dist/flutter_web_auth.js"></script>
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "79396647";
+    const serviceWorkerVersion = "2167829923";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -53,5 +53,11 @@
         });
     });
   </script>
+  <script>
+    window.addEventListener("flutter-first-frame", function (event) {
+      window.flutterWebAuth.init();
+    });
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
