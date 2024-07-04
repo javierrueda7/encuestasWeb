@@ -91443,7 +91443,7 @@ aod(a,b,c){var s=0,r=A.A(t.H),q,p
 var $async$AK=A.w(function(d,e){if(d===1)return A.x(e,r)
 while(true)switch(s){case 0:q=t.N
 s=2
-return A.u(A.b_1(A.hM("https://v1.nocodeapi.com/javirueda7/zohomail/RKInPbDvfYIbiDiM/sendEmail?fromAddress=javieruedase@zohomail.com&toAddress="+B.b.bb(a,",")+"&content="+c+"&subject="+("Invitaci\xf3n a diligenciar la encuesta "+b)+"&mailFormat=html"),A.aA(["Content-Type","application/json"],q,q)),$async$AK)
+return A.u(A.b_1(A.hM("https://v1.nocodeapi.com/javirueda7/zohomail/PrBQEYwVPmgtekXW/sendEmail?fromAddress=auxiliar.pmo@cyma.com.co&toAddress="+B.b.bb(a,",")+"&content="+c+"&subject="+("Invitaci\xf3n a diligenciar la encuesta "+b)+"&mailFormat=html"),A.aA(["Content-Type","application/json"],q,q)),$async$AK)
 case 2:p=e
 q=p.b
 if(q===200)A.bM("Success: "+A.aKE(A.aJt(p.e).c.a.h(0,"charset")).fL(0,p.w))
