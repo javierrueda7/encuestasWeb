@@ -27689,7 +27689,7 @@ this.b=b},
 avB:function avB(a){this.a=a},
 avQ:function avQ(a,b){this.a=a
 this.b=b},
-avt:function avt(a){this.a=a},
+avt:function avt(){},
 avr:function avr(a){this.a=a},
 avs:function avs(a){this.a=a},
 avu:function avu(a){this.a=a},
@@ -94480,38 +94480,42 @@ $0(){var s=0,r=A.B(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$$0=A.w(function(a,a0){if(a===1)return A.y(a0,r)
 while(true)$async$outer:switch(s){case 0:d=p.a
 c=d.a
-b=p.b
 s=6
 return A.t(A.aEz(c.c,c.f),$async$$0)
 case 6:s=a0!=="ENVIADA"?3:5
 break
-case 3:s=7
-return A.t(A.hB(null,null,!0,null,new A.avt(d),b,null,!0,t.z),$async$$0)
-case 7:if(!a0){d.L(new A.avu(d))
+case 3:b=!d.ay
+if(b)a0=b
+else{s=7
+break}s=8
+break
+case 7:s=9
+return A.t(A.hB(null,null,!0,null,new A.avt(),p.b,null,!0,t.z),$async$$0)
+case 9:case 8:if(!a0){d.L(new A.avu(d))
 s=1
 break}d.L(new A.avv(d))
 d.L(new A.avE(d))
 c=d.z
 o=c.length
-if(o===0&&d.ay){c=b.Y(t.q)
+if(o===0&&d.ay){c=p.b.Y(t.q)
 c.toString
 c.f.d5(A.cZ(null,null,null,null,null,B.q,null,A.W("Por favor, agregue al menos una actividad.",null,null,null,null,null,null),null,A.bU(0,0,0,0,4),null,null,null,null,null,null,null,null,null))
 d.L(new A.avF(d))
 s=1
-break}for(n=d.CW,m=n.length,l=0;l<m;++l)if(n[l].a.a.length===0){c=b.Y(t.q)
+break}for(n=d.CW,m=n.length,l=0;l<m;++l)if(n[l].a.a.length===0){c=p.b.Y(t.q)
 c.toString
 c.f.d5(new A.my(A.W("Por favor, complete todos los campos de actividades.",null,null,null,null,null,null),null,null,null,null,null,null,null,null,null,null,null,null,new A.b1(4e6),null,null,null,B.q,null))
 new A.avG(d).$0()
 d.c.dh()
 s=1
-break $async$outer}for(n=d.ch,m=n.length,l=0;l<m;++l)if(n[l].a.a.length===0){c=b.Y(t.q)
+break $async$outer}for(n=d.ch,m=n.length,l=0;l<m;++l)if(n[l].a.a.length===0){c=p.b.Y(t.q)
 c.toString
 c.f.d5(new A.my(A.W("Por favor, complete todos los campos de proyectos.",null,null,null,null,null,null),null,null,null,null,null,null,null,null,null,null,null,null,new A.b1(4e6),null,null,null,B.q,null))
 new A.avH(d).$0()
 d.c.dh()
 s=1
 break $async$outer}for(n=d.cx,m=n.length,l=0;l<m;++l){k=n[l].a.a
-if(k.length===0||k==="0"){c=b.Y(t.q)
+if(k.length===0||k==="0"){c=p.b.Y(t.q)
 c.toString
 c.f.d5(new A.my(A.W("Por favor, complete todos los campos de horas.",null,null,null,null,null,null),null,null,null,null,null,null,null,null,null,null,null,null,new A.b1(4e6),null,null,null,B.q,null))
 new A.avI(d).$0()
@@ -94523,27 +94527,27 @@ else i.n(0,"project",J.aK8(d.Q,new A.avK(i)).a)
 if(!J.ls(d.as,new A.avL(i)))j=!0
 else i.n(0,"activity",J.aK8(d.as,new A.avw(i)).a)}for(c=d.z,o=c.length,l=0;l<c.length;c.length===o||(0,A.M)(c),++l){i=c[l]
 n=d.a
-A.aF7("?idencuesta="+n.c+"&idusuario="+n.f+"&proyecto="+A.j(i.h(0,"project"))+"&actividad="+A.j(i.h(0,"activity"))+"&horas="+A.j(i.h(0,"hours"))+"&fecha="+new A.by(Date.now(),0,!1).k(0))}s=!j?8:10
+A.aF7("?idencuesta="+n.c+"&idusuario="+n.f+"&proyecto="+A.j(i.h(0,"project"))+"&actividad="+A.j(i.h(0,"activity"))+"&horas="+A.j(i.h(0,"hours"))+"&fecha="+new A.by(Date.now(),0,!1).k(0))}s=!j?10:12
 break
-case 8:h=A.a([],t.s)
+case 10:h=A.a([],t.s)
 for(c=d.z,o=c.length,l=0;l<c.length;c.length===o||(0,A.M)(c),++l){i=c[l]
 n=d.a
 h.push("?idencuesta="+n.c+"&idusuario="+n.f+"&proyecto="+A.j(i.h(0,"project"))+"&actividad="+A.j(i.h(0,"activity"))+"&horas="+A.j(i.h(0,"hours"))+"&fecha="+new A.by(Date.now(),0,!1).k(0))}g=B.b.bd(h,";")
 A.bo(g)
-s=d.ay?11:12
+s=d.ay?13:14
 break
-case 11:c=d.z,o=c.length,l=0
-case 13:if(!(l<c.length)){s=15
+case 13:c=d.z,o=c.length,l=0
+case 15:if(!(l<c.length)){s=17
 break}i=c[l]
 n=d.a
-s=16
+s=18
 return A.t(A.b5Z(A.i9("https://script.google.com/macros/s/AKfycbwl1b-qt61HCxZG2QtLYNsqvmAgVQ6NRUmEGbV0SQQaL4Hl6Yh3pwF2WpNkk-EJrAlq/exec"+("?idencuesta="+n.c+"&idusuario="+n.f+"&proyecto="+A.j(i.h(0,"project"))+"&actividad="+A.j(i.h(0,"activity"))+"&horas="+A.j(i.h(0,"hours"))+"&fecha="+new A.by(Date.now(),0,!1).k(0)))),$async$$0)
-case 16:f=a0
+case 18:f=a0
 if(f.b===200)A.aF7(A.j(B.d5.Iq(0,A.aRc(A.aQ3(f.e).c.a.h(0,"charset")).h0(0,f.w),null)))
-case 14:c.length===o||(0,A.M)(c),++l
-s=13
+case 16:c.length===o||(0,A.M)(c),++l
+s=15
 break
-case 15:case 12:c=$.aE
+case 17:case 14:c=$.aE
 e=(c==null?$.aE=$.bT():c).cc("[DEFAULT]")
 A.aN(e,$.cj(),!0)
 c=A.d3(new A.bB(e))
@@ -94552,25 +94556,26 @@ o=d.ay?"ENVIADA":"GUARDADA"
 o=A.Wf(A.aC(["answer",g,"status",o,"date",new A.by(Date.now(),0,!1),"idencuesta",d.a.c],t.K,t.X))
 o.toString
 c.a.c5(0,o)
-o=b.Y(t.q)
-o.toString
-o.f.d5(A.cZ(null,null,null,null,null,B.q,null,A.W(d.ay?"Encuesta enviada exitosamente.":"Encuesta guardada exitosamente.",null,null,null,null,null,null),null,A.bU(0,0,0,0,4),null,null,null,null,null,null,null,null,null))
+o=p.b
+c=o.Y(t.q)
+c.toString
+c.f.d5(A.cZ(null,null,null,null,null,B.q,null,A.W(d.ay?"Encuesta enviada exitosamente.":"Encuesta guardada exitosamente.",null,null,null,null,null,null),null,A.bU(0,0,0,0,4),null,null,null,null,null,null,null,null,null))
 d.a.jE()
 d.L(new A.avx(d))
-s=9
+s=11
 break
-case 10:c=b.Y(t.q)
+case 12:c=p.b.Y(t.q)
 c.toString
 c.f.d5(A.cZ(null,null,null,null,null,B.q,null,A.W("Por favor, cree los proyectos o actividades faltantes.",null,null,null,null,null,null),null,A.bU(0,0,0,0,4),null,null,null,null,null,null,null,null,null))
 d.L(new A.avy(d))
 s=1
 break
-case 9:d.a.jE()
+case 11:d.a.jE()
 d.L(new A.avz(d))
-A.bW(b,!1).d2()
+A.bW(o,!1).d2()
 s=4
 break
-case 5:c=b.Y(t.q)
+case 5:c=p.b.Y(t.q)
 c.toString
 c.f.d5(A.cZ(null,null,null,null,null,B.q,null,A.W("Esta encuesta ya fue enviada.",null,null,null,null,null,null),null,A.bU(0,0,0,0,4),null,null,null,null,null,null,null,null,null))
 d.L(new A.avA())
@@ -94578,7 +94583,7 @@ case 4:case 1:return A.z(q,r)}})
 return A.A($async$$0,r)},
 $S:9}
 A.avt.prototype={
-$1(a){var s=null,r=A.W("Confirmaci\xf3n",s,s,s,s,s,s),q=A.W("\xbfEst\xe1 seguro de que desea "+(this.a.ay?"enviar":"guardar")+" la encuesta?",s,s,s,s,s,s)
+$1(a){var s=null,r=A.W("\xbfEst\xe1 seguro de que desea enviar la encuesta?",s,s,s,s,s,s),q=A.W("Esta acci\xf3n no es reversible.",s,s,s,A.bm(s,s,s,s,s,s,s,s,s,s,s,18,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)
 return A.pA(A.a([A.eL(A.W("Cancelar",s,s,s,s,s,s),new A.avr(a),s),A.eL(A.W("Confirmar",s,s,s,s,s,s),new A.avs(a),s)],t.p),s,s,q,r)},
 $S:75}
 A.avr.prototype={
