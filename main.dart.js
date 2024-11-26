@@ -94558,6 +94558,15 @@ for(b=c.z,o=b.length,l=0;l<b.length;b.length===o||(0,A.M)(b),++l){i=b[l]
 n=c.a
 h.push("?idencuesta="+n.c+"&idusuario="+n.f+"&proyecto="+A.j(i.h(0,"project"))+"&actividad="+A.j(i.h(0,"activity"))+"&horas="+A.j(i.h(0,"hours"))+"&fecha="+new A.bB(Date.now(),0,!1).k(0))}g=B.b.bd(h,";")
 f=c.ay
+b=$.aE
+e=(b==null?$.aE=$.bQ():b).c9("[DEFAULT]")
+A.aM(e,$.cd(),!0)
+b=A.cX(new A.bz(e))
+b=A.cB(b,b.gbS().bL("Encuestas")).cH(c.a.c).bL("Usuarios").cH(c.a.f)
+o=f?"ENVIADA":"GUARDADA"
+o=A.Wf(A.aC(["answer",g,"status",o,"date",new A.bB(Date.now(),0,!1),"idencuesta",c.a.c],t.K,t.X))
+o.toString
+b.a.c5(0,o)
 s=f?13:14
 break
 case 13:b=c.z,o=b.length,l=0
@@ -94566,24 +94575,15 @@ break}i=b[l]
 n=c.a
 s=18
 return A.t(A.b6_(A.i9("https://script.google.com/macros/s/AKfycbwl1b-qt61HCxZG2QtLYNsqvmAgVQ6NRUmEGbV0SQQaL4Hl6Yh3pwF2WpNkk-EJrAlq/exec"+("?idencuesta="+n.c+"&idusuario="+n.f+"&proyecto="+A.j(i.h(0,"project"))+"&actividad="+A.j(i.h(0,"activity"))+"&horas="+A.j(i.h(0,"hours"))+"&fecha="+new A.bB(Date.now(),0,!1).k(0)))),$async$$0)
-case 18:e=a1
-if(e.b===200)A.aJg(A.j(B.d5.Iq(0,A.aRd(A.aQ4(e.e).c.a.h(0,"charset")).h0(0,e.w),null)))
+case 18:d=a1
+if(d.b===200)A.aJg(A.j(B.d5.Iq(0,A.aRd(A.aQ4(d.e).c.a.h(0,"charset")).h0(0,d.w),null)))
 case 16:b.length===o||(0,A.M)(b),++l
 s=15
 break
-case 17:case 14:b=$.aE
-d=(b==null?$.aE=$.bQ():b).c9("[DEFAULT]")
-A.aM(d,$.cd(),!0)
-b=A.cX(new A.bz(d))
-b=A.cB(b,b.gbS().bL("Encuestas")).cH(c.a.c).bL("Usuarios").cH(c.a.f)
-o=f?"ENVIADA":"GUARDADA"
-o=A.Wf(A.aC(["answer",g,"status",o,"date",new A.bB(Date.now(),0,!1),"idencuesta",c.a.c],t.K,t.X))
+case 17:case 14:b=p.b
+o=b.Y(t.q)
 o.toString
-b.a.c5(0,o)
-o=p.b
-b=o.Y(t.q)
-b.toString
-b.f.d_(A.cT(null,null,null,null,null,B.q,null,A.W(f?"Encuesta enviada exitosamente.":"Encuesta guardada exitosamente.",null,null,null,null,null,null),null,A.bR(0,0,0,0,4),null,null,null,null,null,null,null,null,null))
+o.f.d_(A.cT(null,null,null,null,null,B.q,null,A.W(f?"Encuesta enviada exitosamente.":"Encuesta guardada exitosamente.",null,null,null,null,null,null),null,A.bR(0,0,0,0,4),null,null,null,null,null,null,null,null,null))
 c.a.jE()
 c.L(new A.avy(c))
 s=11
@@ -94596,7 +94596,7 @@ s=1
 break
 case 11:c.a.jE()
 c.L(new A.avA(c))
-A.bW(o,!1).d3()
+A.bW(b,!1).d3()
 s=4
 break
 case 5:b=p.b.Y(t.q)
