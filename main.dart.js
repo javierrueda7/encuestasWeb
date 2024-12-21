@@ -95436,7 +95436,7 @@ $1(a){var s=null
 return A.aFR(!0,s,s,this.a.gR3(),s,s,s,s)},
 $S:122}
 A.QH.prototype={
-I(a){return new A.BP(A.aC(["/",new A.aiq()],t.N,t.Ab),"/","CYMA - ENCUESTAS MOP",B.TH,B.PY,null)}}
+I(a){return new A.BP(A.aC(["/",new A.aiq()],t.N,t.Ab),"/","SISTEMA DE ENCUESTAS",B.TH,B.PY,null)}}
 A.aiq.prototype={
 $1(a){return new A.rO(null)},
 $S:581}
@@ -95450,10 +95450,10 @@ r=s.c
 q.d=r
 s=s.d
 q.e=s==null?q.e:s},
-I(a){var s,r=null,q=A.pE(r,A.cE(A.W("CYMA - ENCUESTAS MOP",r,r,r,r,r,r),r,r)),p=this.d,o=t.p
+I(a){var s,r=null,q=A.pE(r,A.cE(A.W("SISTEMA DE ENCUESTAS",r,r,r,r,r,r),r,r)),p=this.d,o=t.p
 p=A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("RESPONDER ENCUESTA",r,r,r,r,r,r),new A.ayo(this,a),r)],o),B.z,B.A,B.y),p!=="ADMINISTRADOR")
-s=this.d!=="USUARIO"
-return A.ow(q,A.cE(A.cJ(A.a([p,A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("ADMINISTRAR ENCUESTAS",r,r,r,r,r,r),new A.ayp(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR USUARIOS",r,r,r,r,r,r),new A.ayq(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR PROYECTOS",r,r,r,r,r,r),new A.ayr(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR ACTIVIDADES",r,r,r,r,r,r),new A.ays(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR CARGOS",r,r,r,r,r,r),new A.ayt(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR PROFESIONES",r,r,r,r,r,r),new A.ayu(a),r),A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("CONSULTAS",r,r,r,r,r,r),new A.ayv(),r)],o),B.z,B.A,B.y),s)],o),B.z,B.A,B.y),s)],o),B.z,B.cS,B.y),r,r),!1,r)}}
+s=this.d
+return A.ow(q,A.cE(A.cJ(A.a([p,A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("ADMINISTRAR ENCUESTAS",r,r,r,r,r,r),new A.ayp(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR USUARIOS",r,r,r,r,r,r),new A.ayq(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR PROYECTOS",r,r,r,r,r,r),new A.ayr(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR ACTIVIDADES",r,r,r,r,r,r),new A.ays(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR CARGOS",r,r,r,r,r,r),new A.ayt(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR PROFESIONES",r,r,r,r,r,r),new A.ayu(a),r),A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("CONSULTAS",r,r,r,r,r,r),new A.ayv(),r)],o),B.z,B.A,B.y),!1)],o),B.z,B.A,B.y),s!=="USUARIO")],o),B.z,B.cS,B.y),r,r),!1,r)}}
 A.ayo.prototype={
 $0(){var s=A.fH(new A.ayn(this.a),null,t.z)
 A.bW(this.b,!1).eJ(s)},
@@ -96277,8 +96277,8 @@ s=t.l
 r=A.bC(a,f,s).w
 q=A.bC(a,f,s).w
 p=A.bC(a,f,s).w
-o=A.b_O(f,f,new A.zd("assets/images/LogoCyMA.png",f,f))
-n=A.W("SISTEMA DE ENCUESTAS MOP",f,f,f,A.bm(f,f,f,f,f,f,f,f,f,f,f,20,f,f,B.a5,f,f,!0,f,f,f,f,f,f,f,f),f,f)
+o=A.b_O(f,f,new A.zd("assets/images/imagen.jpg",f,f))
+n=A.W("SISTEMA DE ENCUESTAS",f,f,f,A.bm(f,f,f,f,f,f,f,f,f,f,f,20,f,f,B.a5,f,f,!0,f,f,f,f,f,f,f,f),f,f)
 m=A.dy(f,A.aIQ("EMAIL",g.f,!1),B.v,f,B.d1,f,f,f,f,f,f,f,f)
 l=A.dy(f,new A.vM("CONTRASE\xd1A",g.e,f),B.v,f,B.d1,f,f,f,f,f,f,f,f)
 k=A.dy(f,g.aoT(a),B.v,f,B.d1,f,f,f,f,f,f,f,f)
@@ -102714,7 +102714,7 @@ B.hO=new A.qd(0,"none")
 B.Mv=new A.qd(1,"low")
 B.fk=new A.qd(2,"medium")
 B.kU=new A.qd(3,"high")
-B.Mw=new A.uR("AIzaSyB6kvR8kMd58VaxG_Jav51djBKD-H2ybGQ","1:826968691664:web:2dc0cc767fa54f2b4a5fd5","826968691664","forms-d51f6","forms-d51f6.firebaseapp.com",null,"forms-d51f6.appspot.com","G-58MTH6VZSZ",null,null,null,null,null,null)
+B.Mw=new A.uR("AIzaSyCMjEnVXoNRmgJj6afTZuMZqNbg4bN9Dgo","1:285269990193:web:4d403b35d548444abaae10","285269990193","forms-66186","forms-66186.firebaseapp.com",null,"forms-66186.firebasestorage.app","G-6YPFKXFQ8J",null,null,null,null,null,null)
 B.H=new A.K(0,0)
 B.Mx=new A.Ni(B.H,B.H)
 B.oY=new A.Nk(0,"tight")
