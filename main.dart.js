@@ -94953,7 +94953,7 @@ else A.br("Failed: "+q)
 return A.z(null,r)}})
 return A.A($async$BI,r)},
 amm(a,b,c){var s=null
-A.hB(s,s,!0,s,new A.axH(this,c,new A.c1(new A.cA("      Hola, el \xe1rea t\xe9cnica de CyMA te invita a responder la \xfaltima encuesta, presiona en el siguiente link para visitar la plataforma de Encuestas MOP.\n      \n      https://cyma-encuestasmop.github.io/EncuestasMOP/\n      \n      Si ya fue respondida, hacer caso omiso a este correo.\n\n      Cordial saludo,\n      Equipo CyMA - Encuestas MOP\n    ",B.bB,B.az),$.ah()),b),a,s,!0,t.z)},
+A.hB(s,s,!0,s,new A.axH(this,c,new A.c1(new A.cA("      Hola, el \xe1rea t\xe9cnica te invita a responder la \xfaltima encuesta, presiona en el siguiente link para visitar la plataforma de Encuestas.\n      \n      https://javierrueda7.github.io/encuestasWeb/\n      \n      Si ya fue respondida, hacer caso omiso a este correo.\n\n      Cordial saludo\n      \n    ",B.bB,B.az),$.ah()),b),a,s,!0,t.z)},
 tS(a,b,c,d,e,f){return this.aeS(a,b,c,d,e,f)},
 aeS(a9,b0,b1,b2,b3,b4){var s=0,r=A.B(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8
 var $async$tS=A.w(function(b5,b6){if(b5===1){p=b6
