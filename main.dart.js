@@ -95452,8 +95452,8 @@ s=s.d
 q.e=s==null?q.e:s},
 I(a){var s,r=null,q=A.pE(r,A.cE(A.W("SISTEMA DE ENCUESTAS",r,r,r,r,r,r),r,r)),p=this.d,o=t.p
 p=A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("RESPONDER ENCUESTA",r,r,r,r,r,r),new A.ayo(this,a),r)],o),B.z,B.A,B.y),p!=="ADMINISTRADOR")
-s=this.d
-return A.ow(q,A.cE(A.cJ(A.a([p,A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("ADMINISTRAR ENCUESTAS",r,r,r,r,r,r),new A.ayp(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR USUARIOS",r,r,r,r,r,r),new A.ayq(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR PROYECTOS",r,r,r,r,r,r),new A.ayr(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR ACTIVIDADES",r,r,r,r,r,r),new A.ays(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR CARGOS",r,r,r,r,r,r),new A.ayt(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR PROFESIONES",r,r,r,r,r,r),new A.ayu(a),r),A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("CONSULTAS",r,r,r,r,r,r),new A.ayv(),r)],o),B.z,B.A,B.y),!1)],o),B.z,B.A,B.y),s!=="USUARIO")],o),B.z,B.cS,B.y),r,r),!1,r)}}
+s=this.d!=="USUARIO"
+return A.ow(q,A.cE(A.cJ(A.a([p,A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("ADMINISTRAR ENCUESTAS",r,r,r,r,r,r),new A.ayp(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR USUARIOS",r,r,r,r,r,r),new A.ayq(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR PROYECTOS",r,r,r,r,r,r),new A.ayr(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR ACTIVIDADES",r,r,r,r,r,r),new A.ays(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR CARGOS",r,r,r,r,r,r),new A.ayt(a),r),A.aD(r,20,r),A.fB(A.W("ADMINISTRAR PROFESIONES",r,r,r,r,r,r),new A.ayu(a),r),A.oS(A.cJ(A.a([A.aD(r,20,r),A.fB(A.W("CONSULTAS",r,r,r,r,r,r),new A.ayv(),r)],o),B.z,B.A,B.y),s)],o),B.z,B.A,B.y),s)],o),B.z,B.cS,B.y),r,r),!1,r)}}
 A.ayo.prototype={
 $0(){var s=A.fH(new A.ayn(this.a),null,t.z)
 A.bW(this.b,!1).eJ(s)},
@@ -95504,7 +95504,7 @@ A.ayh.prototype={
 $1(a){return new A.kG("Profesiones",null)},
 $S:88}
 A.ayv.prototype={
-$0(){var s=window.open("https://app.powerbi.com/view?r=eyJrIjoiMzBiZGZjMGYtMjJlMy00NDhiLThlODUtNmE3Mzk3NjA1MWM2IiwidCI6IjJlZDU1NzRjLWY5YmEtNDQyNi05NjU4LWU0NzdhZDc0MzlkYiIsImMiOjR9","_blank")
+$0(){var s=window.open("https://app.powerbi.com/view?r=eyJrIjoiY2E3NmZmMDEtOTlmZi00N2ZjLWJjYTMtNGJjNTA2MTNiNGM4IiwidCI6IjJlZDU1NzRjLWY5YmEtNDQyNi05NjU4LWU0NzdhZDc0MzlkYiIsImMiOjR9","_blank")
 A.b1H(s)},
 $S:0}
 A.pz.prototype={
